@@ -62,7 +62,7 @@ class LikeSection extends StatefulWidget {
 class _LikeSectionState extends State<LikeSection> {
   late OverlayEntry _overlayEntry;
   bool _isOpen = false;
-  LikeFamilyEnum currentEmoji = LikeFamilyEnum.like;
+  LikeFamilyEnum currentEmoji = LikeFamilyEnum.unkown;
 
   @override
   Widget build(BuildContext context) {
